@@ -1,30 +1,20 @@
 # Scuro
-Scuro framework for Python
+Scuro is a web server that turns your PostgreSQL database directly into a RESTful API. The structural constraints and permissions in the database determine the API endpoints and operations.
 
+**Scuro is under development, you check the dev branch for progress**
 
-## Idea
-Scuro will parse json request body and generate SQL query
+## Installation
+- clone this repo:
 
-## Feature
-- Anti-SQL Injection
-    a. Scuro prevents SQL injection by 
-- 
+`git clone git@github.com:TorchAI/scuro.git`
 
+- change to the scuro project root folder, then Install dependencies:
 
+`pipenv install`
 
-## Q&A
-### Security
+- Run the app:
 
+`uvicorn main:app --reload`
 
-### Performance/SQL optimization
-
-1. SQL caching 
-    The query with User with the same id will be executed once to the db.
-
-2. Little tweak
-    a. if query both 
-
-3. Automatic join
-    a. 
-
+For more options, please refer to uvicorn documentation.
 
