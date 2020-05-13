@@ -9,6 +9,9 @@ Scuro is a web server that turns your PostgreSQL database directly into a RESTfu
 **Scuro is under development, you check the dev branch for progress**
 
 ## Installation
+
+[![Join the chat at https://gitter.im/TorchAI/Scuro](https://badges.gitter.im/TorchAI/Scuro.svg)](https://gitter.im/TorchAI/Scuro?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 - clone this repo:
 
 `git clone git@github.com:TorchAI/scuro.git`
